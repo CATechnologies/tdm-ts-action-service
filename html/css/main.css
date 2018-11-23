@@ -1,0 +1,32 @@
+/*Copyright © 2018 CA. All rights reserved.  CA Confidential.  Please see License.txt file for applicable usage rights and restrictions.*/
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans';
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/Open_Sans/OpenSans-Regular.ttf") format("opentype");
+}
+
+.tdm-heading-one {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #444444;
+    text-align: left;
+    line-height: normal;
+}
+
+.tdm-heading-two {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: #444444;
+    text-align: left;
+    line-height: normal;
+}

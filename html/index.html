@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Copyright © 2018 CA. All rights reserved.  CA Confidential.  Please see License.txt file for applicable usage rights and restrictions. -->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Custom REST Action</title>
+        <link href="css/bootstrap-3-1-1.css" th:href="@{/css/bootstrap-3-1-1.css}" rel="stylesheet" />
+        <link href="css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="tdm-heading-one">Custom REST Action</h1>
+
+            <h2 class="tdm-heading-two">How to Register a Custom Action in TDM:</h2>
+            <ol>
+                <li>Go to Generators</li>
+                <li>Select a Generator or create a new one</li>
+                <li>Go to Actions</li>
+                <li>Create new Action - type REST</li>
+                <li>Enter the following URL as the REST Action URL:
+                    <code>
+                        <script th:inline="javascript">document.write(window.location.origin + "/action");</script>
+                    </code>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>
